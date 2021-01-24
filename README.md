@@ -28,3 +28,7 @@ But how one can generate different hash?
 Well, add a dummy data which is to be changed to make that happen. 
 So, when one computer successfully finds a hash with that difficulty then it is called mining. 
 Then the hash is the proof of work. 
+
+![proofOfWork](https://github.com/TamimEhsan/Poysha/blob/master/Assets/proofOfWork.PNG) 
+
+Here we see that the hash contains 5 leading zeros and took about 20 seconds for the second block to mine it. The reason why first block took different time than second one is cause the contents of the block on which the hash works are different. 
