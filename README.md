@@ -44,3 +44,11 @@ Many computers try to mine a block. But the one who does it quickly will get the
 ![proofOfWork](https://github.com/TamimEhsan/Poysha/blob/master/Assets/rewards.PNG) 
 
 Here we see the address Tamim mined the block successfully and in the next transaction was awarded 100 poysha asa thin air.  So, yeah "Pacchish din may paysha double". 
+
+### Signing Transactions
+
+Each transaction must be signed from the sender. The signature contains a public key. And that public key identifies the user. But the signature is created by the private key. So no one can replicate others signature. 
+
+![proofOfWork](https://github.com/TamimEhsan/Poysha/blob/master/Assets/keys.PNG) 
+
+exception is the reward transaction. As it is not from anyone, so it doesn't have any signature. And it is added automatically to the pending transactions and is rewarded to the miner address.
